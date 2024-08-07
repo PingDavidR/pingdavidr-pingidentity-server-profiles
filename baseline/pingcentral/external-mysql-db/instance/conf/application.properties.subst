@@ -13,7 +13,7 @@ server.port=${PING_CENTRAL_SERVER_PORT}
 # within a trust store for earlier versions will be imported into PingCentral database
 # during upgrade. If upgrading docker from previous versions to 1.8 and later versions, still specify the path to the trust store below as well as the password.
 # To add additional trusted CA certificates please refer to PingCentral
-# documentation.
+# documentation. 
 
 server.ssl.trust-any=${PING_CENTRAL_BLIND_TRUST}
 server.ssl.https.verify-hostname=${PING_CENTRAL_VERIFY_HOSTNAME}
